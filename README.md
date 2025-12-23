@@ -1,6 +1,6 @@
 # Data Usage Tracker
 
-Sistema de simulação de controle de consumo de dados móveis.
+Sistema de simulação para controle de consumo de dados móveis.
 
 ![Data Usage Tracker](https://img.shields.io/badge/In_Progress-10%25-yellow)
 ![Node.js](https://img.shields.io/badge/Redis-red)
@@ -13,7 +13,7 @@ Data Usage Tracker é um sistema backend que recebe requisições via API, de co
 
 ## Em breve
 
-O sistema ainda está sendo desenvolvido, logo haverão atualizações. Até o momento, o sistema conta com:
+O sistema ainda está sendo desenvolvido, logo haverão mais atualizações. Até o momento, o sistema conta com:
 - arquitetura baseada em camadas (layered) com adaptações REST API (model, service, controller, repository)
 - containers criados com docker compose: PostgreSQL, Redis e RabbitMQ
 - entidade Cliente (para conter os dados de clientes e planos cadastrados com relação 1:1)
